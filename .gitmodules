@@ -1,0 +1,3 @@
+[submodule "nitro-ribbon"]
+	path = nitro-ribbon
+	url = https://github.com/NitroLabs/nitro-ribbon
