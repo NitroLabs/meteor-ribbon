@@ -5,12 +5,18 @@ by Microsoft Office for Mac OSX. The original package can be found at
 [https://github.com/NitroLabs/nitro-ribbon](https://github.com/NitroLabs/nitro-ribbon).
 
 # Demo
-A live demo of the interface is available here [coming soon].
+A live demo of the interface is available here [ribbon.meteor.com](http://ribbon.meteor.com).
 The source code for this demo is available at https://github.com/NitroLabs/meteor-ribbon-demo
 
 # Usage
-Usage instructions the same
-as [https://github.com/NitroLabs/nitro-ribbon](https://github.com/NitroLabs/nitro-ribbon)
+Install from atmoshpere:
+
+```sh
+meteor add nitrolabs:ribbon
+```
+
+Usage instructions the same as
+[https://github.com/NitroLabs/nitro-ribbon](https://github.com/NitroLabs/nitro-ribbon)
 except the style and javascript files a automatically included by this package.
 
 ```html
@@ -42,6 +48,10 @@ Template.NitroRibbon.rendered = function(){
 	});
 }
 ```
+
+# Development
+This package is actively maintained and supported by [NitroLabs](http://www.nitrolabs.com/).
+Pull requests and feature suggestions welcome.
 
 
 # License

@@ -1,8 +1,8 @@
 Package.describe({
   name: 'nitrolabs:ribbon',
   version: '0.0.1',
-  summary: 'nitro-ribbon packaged for Meteor',
-  git: '',
+  summary: 'Nitro Ribbon packaged for Meteor',
+  git: 'https://github.com/NitroLabs/meteor-ribbon',
   documentation: 'README.md'
 });
 
@@ -33,5 +33,5 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
-  api.use('nitrolabs:meteor-ribbon');
+  api.use('nitrolabs:ribbon');
 });
