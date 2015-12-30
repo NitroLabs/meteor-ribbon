@@ -1,6 +1,6 @@
 Package.describe({
   name: 'nitrolabs:ribbon',
-  version: '0.0.1',
+  version: '0.0.3',
   summary: 'Nitro Ribbon packaged for Meteor',
   git: 'https://github.com/NitroLabs/meteor-ribbon',
   documentation: 'README.md'
